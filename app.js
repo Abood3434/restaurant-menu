@@ -148,8 +148,8 @@ const menu = [
 
             {
                 name: {
-                    en: "Fancy Fries",
-                    ar: "بطاطا فاخرة"
+                    en: "Fancy Fries 🥔",
+                    ar: "بطاطا فاخرة 🥔"
                 },
 
                 description: {
@@ -179,8 +179,8 @@ const menu = [
 
             {
                 name: {
-                    en: "Nachos",
-                    ar: "ناتشوز"
+                    en: "Nachos 🍕",
+                    ar: "ناتشوز 🍕"
                 },
 
                 description: {
@@ -296,7 +296,7 @@ const menu = [
                     ar: "صلصة مكسيكية حارة جداً."
                 },
 
-                image: "images/soda.png",
+                image: "images/salsa.jpg",
 
                 variants: [
                     {
@@ -319,7 +319,7 @@ const menu = [
                     ar: "صلصة مكسيكية حارة جداً."
                 },
 
-                image: "images/soda.png",
+                image: "images/salsa.jpg",
 
                 variants: [
                     {
@@ -343,7 +343,7 @@ const menu = [
                     ar: "صلصة مكسيكية حارة جداً."
                 },
 
-                image: "images/soda.png",
+                image: "images/salsa.jpg",
 
                 variants: [
                     {
@@ -366,7 +366,7 @@ const menu = [
                     ar: "صلصة مكسيكية حارة جداً."
                 },
 
-                image: "images/soda.png",
+                image: "images/salsa.jpg",
 
                 variants: [
                     {
