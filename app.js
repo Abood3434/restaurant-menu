@@ -145,10 +145,11 @@ const menu = [
 
         items: [
 
+
             {
                 name: {
-                    en: "Small Fries",
-                    ar: "بطاطا صغيرة"
+                    en: "Fancy Fries",
+                    ar: "بطاطا فاخرة"
                 },
 
                 description: {
@@ -158,32 +159,13 @@ const menu = [
 
                 image: "images/fries.jpg",
 
-                variants: [
-                    {
+                variants: [{
                         name: {
                             en: "Small",
                             ar: "صغيرة"
                         },
                         price: 7
-                    }
-                ]
-            },
-
-
-            {
-                name: {
-                    en: "Big Fries",
-                    ar: "بطاطا كبيرة"
-                },
-
-                description: {
-                    en: "",
-                    ar: ""
-                },
-
-                image: "images/fries.jpg",
-
-                variants: [
+                    },
                     {
                         name: {
                             en: "Large",
@@ -208,13 +190,19 @@ const menu = [
 
                 image: "images/nachos.jpg",
 
-                variants: [
-                    {
+                variants: [{
                         name: {
                             en: "Regular",
                             ar: "عادي"
                         },
-                        price: 12
+                        price: 9
+                    },
+                    {
+                        name: {
+                            en: "With cheese",
+                            ar: "مع جبنة"
+                        },
+                        price: 13
                     }
                 ]
             }
