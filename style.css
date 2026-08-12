@@ -81,7 +81,13 @@ body {
     top: 0;
 
     z-index: 100;
-
+	
+	width: 100%;
+	flex-wrap: nowrap;
+	overflow-y: hidden;
+	scrollbar-width: none;
+	-webkit-overflow-scrolling: touch;
+		
     display: flex;
 
     overflow-x: auto;
@@ -93,20 +99,33 @@ body {
     background: #ba5c38;
 
     border-bottom: 1px solid #ddd;
-	border-radius: 20px;
+	border-radius: 10px;
 
     scrollbar-width: none;
+	    scroll-snap-type: x mandatory;
 }
+
+.category-nav-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    background: ba5c38;
+
+    border-bottom: 1px solid #e8e8e8;
+}
+
 
 .category-nav::-webkit-scrollbar {
     display: none;
 }
 
 .category-button {
-    flex-shrink: 0;
+    flex: 0 0 auto;
+	white-space: nowrap;
 
     border: none;
-
+    scroll-snap-align: start;
     padding:
         9px
         16px;
@@ -132,6 +151,9 @@ body {
     background: #ddd;
 }
 
+.category-button:active {
+    transform: scale(1.05);
+}
 
 /* =========================
    MENU
