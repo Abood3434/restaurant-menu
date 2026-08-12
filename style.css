@@ -359,35 +359,47 @@ footer {
 ========================= */
 
 .language-switcher {
+    position: absolute;
+
+    top: 12px;
+    right: 12px;
+
     display: flex;
+    gap: 3px;
 
-    justify-content: center;
+    padding: 3px;
 
-    gap: 6px;
+    border-radius: 20px;
 
-    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+
+    backdrop-filter: blur(6px);
 }
 
 .language-switcher button {
-    border: 1px solid #555;
+    border: none;
 
     background: transparent;
 
     color: black;
-	
-    padding:
-        7px
-        12px;
 
-    border-radius: 6px;
+    padding: 3px 7px;
+
+    border-radius: 14px;
+
+    font-size: 10px;
+    font-weight: 600;
+
+    line-height: 1;
 
     cursor: pointer;
 }
 
 .language-switcher button:hover {
+    color: white;
+
     background: #cbcbcb;
 }
-
 
 /* =========================
    ARABIC
