@@ -73,8 +73,8 @@ const menu = [
             },
 			{
                 name: {
-                    en: "Pollo Asado Quesadilla",
-                    ar: "كيساديلا دجاج بولو أسادو"
+                    en: "Chicken Quesadilla",
+                    ar: "كيساديا الدجاج المكسيكي"
                 },
 
                 description: {
