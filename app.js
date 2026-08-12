@@ -10,8 +10,8 @@ const menu = [
 
             {
                 name: {
-                    en: "Korean Chicken Wrap",
-                    ar: "بوريتو الدجاج الكوري"
+                    en: "Korean Chicken Wrap 🇰🇷",
+                    ar: "بوريتو الدجاج الكوري 🇰🇷"
                 },
 
                 description: {
@@ -43,8 +43,8 @@ const menu = [
 
             {
                 name: {
-                    en: "Shawarma Wrap",
-                    ar: "بوريتو الشاورما"
+                    en: "Shawarma Wrap 🇵🇸",
+                    ar: "بوريتو الشاورما 🇵🇸"
                 },
 
                 description: {
@@ -73,8 +73,8 @@ const menu = [
             },
 			{
                 name: {
-                    en: "Chicken Quesadilla",
-                    ar: "كيساديا الدجاج المكسيكي"
+                    en: "Chicken Quesadilla 🇲🇽",
+                    ar: "كيساديا الدجاج المكسيكي 🇲🇽"
                 },
 
                 description: {
@@ -105,8 +105,8 @@ const menu = [
 
             {
                 name: {
-                    en: "Queso Birria",
-                    ar: "كيساديا بيريا"
+                    en: "Queso Birria 🇲🇽",
+                    ar: "كيساديا بيريا 🇲🇽"
                 },
 
                 description: {
@@ -223,8 +223,8 @@ const menu = [
                 },
 
                 description: {
-                    en: "Spicy Mexican salsa.",
-                    ar: "صلصة مكسيكية حارة جداً."
+                    en: "Spicy Mexican salsa. 🌶️🌶️🌶️",
+                    ar: "صلصة مكسيكية حارة جداً. 🌶️🌶️🌶"
                 },
 
                 image: "images/soda.png",
