@@ -2,8 +2,8 @@ const menu = [
 
     {
         category: {
-            en: "Wraps",
-            ar: "الراب"
+            en: "Main Meals",
+            ar: "وجبات رئيسية"
         },
 
         items: [
@@ -11,7 +11,7 @@ const menu = [
             {
                 name: {
                     en: "Korean Chicken Wrap",
-                    ar: "راب الدجاج الكوري"
+                    ar: "بوريتو الدجاج الكوري"
                 },
 
                 description: {
@@ -20,13 +20,13 @@ const menu = [
                 },
 
                 image: "images/korean-chicken.jpg",
-				badge: {ar:"جديد", en:"best"},
+				badge: {ar:"جديد🔥", en:"New 🔥"},
 
                 variants: [
                     {
                         name: {
-                            en: "Wrap",
-                            ar: "راب"
+                            en: "Burrito",
+                            ar: "بوريتو"
                         },
                         price: 24
                     },
@@ -44,7 +44,7 @@ const menu = [
             {
                 name: {
                     en: "Shawarma Wrap",
-                    ar: "راب الشاورما"
+                    ar: "بوريتو الشاورما"
                 },
 
                 description: {
@@ -52,13 +52,13 @@ const menu = [
                     ar: "شاورما دجاج متبلة مع خضار طازجة وصلصة."
                 },
 
-                image: "images/shawarma.jpg",
+                image: "images/shawarma-wrap.jpg",
 
                 variants: [
                     {
                         name: {
                             en: "Wrap",
-                            ar: "راب"
+                            ar: "بوريتو"
                         },
                         price: 20
                     },
@@ -70,21 +70,8 @@ const menu = [
                         price: 27
                     }
                 ]
-            }
-
-        ]
-    },
-
-
-    {
-        category: {
-            en: "Quesadillas",
-            ar: "الكيساديلا"
-        },
-
-        items: [
-
-            {
+            },
+			{
                 name: {
                     en: "Pollo Asado Quesadilla",
                     ar: "كيساديلا دجاج بولو أسادو"
@@ -95,13 +82,13 @@ const menu = [
                     ar: "دجاج متبل مشوي مع الجبن الذائب."
                 },
 
-                image: "images/pollo-asado.jpg",
+                image: "images/quesadilla-chicken.jpg",
 
                 variants: [
                     {
                         name: {
                             en: "Quesadilla",
-                            ar: "كيساديلا"
+                            ar: "كيساديا"
                         },
                         price: 22
                     },
@@ -119,7 +106,7 @@ const menu = [
             {
                 name: {
                     en: "Queso Birria",
-                    ar: "كيسو بيريا"
+                    ar: "كيساديا بيريا"
                 },
 
                 description: {
@@ -127,10 +114,16 @@ const menu = [
                     ar: "لحم بقري مطهو ببطء مع الجبن الذائب وصلصة بيريا."
                 },
 
-                image: "images/birria.jpg",
+                image: "images/quesadilla-birria.jpg",
 
                 variants: [
-                    {
+					{
+						name:{
+							en: "Quesadilla",
+							ar: "كيساديا"
+						}, price: 26
+					},
+					{
                         name: {
                             en: "Meal",
                             ar: "وجبة"
