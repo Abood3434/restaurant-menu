@@ -139,8 +139,8 @@ const menu = [
 
     {
         category: {
-            en: "Sides",
-            ar: "الإضافات"
+            en: "Appetizers & Sides",
+            ar: "مقبلات"
         },
 
         items: [
@@ -162,14 +162,14 @@ const menu = [
                 variants: [{
                         name: {
                             en: "Small",
-                            ar: "صغيرة"
+                            ar: "صغير"
                         },
                         price: 7
                     },
                     {
                         name: {
                             en: "Large",
-                            ar: "كبيرة"
+                            ar: "كبير"
                         },
                         price: 12
                     }
@@ -213,8 +213,8 @@ const menu = [
 
     {
         category: {
-            en: "Drinks",
-            ar: "المشروبات"
+            en: "Extras",
+            ar: "الإضافات"
         },
 
         items: [
@@ -358,11 +358,15 @@ function renderMenu() {
     <div class="image-container">
 
         <img
-            class="menu-item-image"
-            src="${item.image}"
-            alt="${item.name[currentLanguage]}"
-            loading="lazy"
-        >
+		class="menu-item-image"
+		src="${item.image}"
+		alt="${item.name[currentLanguage]}"
+		loading="lazy"
+		onclick="openImage(
+			'${item.image}',
+			'${item.name[currentLanguage]}'
+		)"
+	>
 
         ${
             item.badge
@@ -476,6 +480,65 @@ arabicButton.addEventListener(
             "© 2026 مطعمك";
 
         renderMenu();
+
+    }
+);
+
+const imageModal =
+    document.getElementById("imageModal");
+
+const modalImage =
+    document.getElementById("modalImage");
+
+const closeModal =
+    document.getElementById("closeModal");
+
+
+function openImage(image, alt) {
+
+    modalImage.src = image;
+    modalImage.alt = alt;
+
+    imageModal.classList.add("active");
+
+    document.body.style.overflow = "hidden";
+}
+
+
+function closeImage() {
+
+    imageModal.classList.remove("active");
+
+    document.body.style.overflow = "";
+
+    modalImage.src = "";
+}
+
+closeModal.addEventListener(
+    "click",
+    closeImage
+);
+
+
+imageModal.addEventListener(
+    "click",
+    (event) => {
+
+        if (event.target === imageModal) {
+            closeImage();
+        }
+
+    }
+);
+
+
+document.addEventListener(
+    "keydown",
+    (event) => {
+
+        if (event.key === "Escape") {
+            closeImage();
+        }
 
     }
 );
