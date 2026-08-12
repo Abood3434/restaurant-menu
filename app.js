@@ -227,7 +227,7 @@ const menu = [
                     ar: "صلصة مكسيكية حارة جداً. 🌶️🌶️🌶"
                 },
 
-                image: "images/soda.png",
+                image: "images/salsa.jpg",
 
                 variants: [
                     {
@@ -250,7 +250,7 @@ const menu = [
                     ar: "صلصة البندورة المكسيكية."
                 },
 
-                image: "images/soda.png",
+                image: "images/salsa.jpg",
 
                 variants: [
                     {
@@ -273,7 +273,7 @@ const menu = [
                     ar: "صلصة مكسيكية حارة جداً."
                 },
 
-                image: "images/soda.png",
+                image: "images/salsa.jpg",
 
                 variants: [
                     {
