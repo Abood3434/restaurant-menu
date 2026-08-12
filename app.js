@@ -154,7 +154,7 @@ const menu = [
 
                 description: {
                     en: "",
-                    ar: "بطاطا تاكوشي المقرمشة مع بهار تاكوشي المميز."
+                    ar: "بطاطا تاكوشي المقرمشة مع بهارات تاكوشي المميز."
                 },
 
                 image: "images/fries.jpg",
@@ -179,8 +179,8 @@ const menu = [
 
             {
                 name: {
-                    en: "Nachos 🍕",
-                    ar: "ناتشوز 🍕"
+                    en: "Nachos 🫕",
+                    ar: "ناتشوز 🫕"
                 },
 
                 description: {
@@ -200,7 +200,7 @@ const menu = [
                     {
                         name: {
                             en: "With cheese",
-                            ar: "مع جبنة"
+                            ar: "جبنة"
                         },
                         price: 13
                     }
@@ -682,13 +682,13 @@ englishButton.addEventListener(
         document.documentElement.dir = "ltr";
 
         restaurantName.textContent =
-            "Your Restaurant";
+            "Tacoshi Restaurant";
 
         restaurantTagline.textContent =
-            "Premium Street Food";
+            "Premium Mexican Food 🌮🌯🇲🇽";
 
         footerText.textContent =
-            "© 2026 Your Restaurant";
+            "© 2026 Tacoshi";
 
         renderMenu();
 
@@ -710,13 +710,13 @@ arabicButton.addEventListener(
         document.documentElement.dir = "rtl";
 
         restaurantName.textContent =
-            "مطعمك";
+            "  Tacoshi – تاكوشي";
 
         restaurantTagline.textContent =
-            "أشهى مأكولات الشارع";
+            " المطعم المكسيكي الأول في البلاد 🌮 🌯 🇲🇽";
 
         footerText.textContent =
-            "© 2026 مطعمك";
+            "© 2026 تاكوشي";
 
         renderMenu();
 
