@@ -93,6 +93,7 @@ body {
     background: #ba5c38;
 
     border-bottom: 1px solid #ddd;
+	border-radius: 20px;
 
     scrollbar-width: none;
 }
