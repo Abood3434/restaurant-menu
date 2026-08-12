@@ -16,7 +16,7 @@ const menu = [
 
                 description: {
                     en: "Crispy Korean-style chicken with fresh toppings and sauce.",
-                    ar: "دجاج كوري مقرمش مع إضافات طازجة وصلصة."
+                    ar: "دجاج متبل بالطريقة الكورية مع النكهات الاسيوية. <br> ملفوف كوري <br> صوص سبشيل"
                 },
 
                 image: "images/korean-chicken.jpg",
@@ -49,7 +49,7 @@ const menu = [
 
                 description: {
                     en: "Seasoned chicken shawarma with fresh vegetables and sauce.",
-                    ar: "شاورما دجاج متبلة مع خضار طازجة وصلصة."
+                    ar: "شاورما دجاج بتتبيلة خاصة. <br> مع جبنة <br> طحينية وثومة"
                 },
 
                 image: "images/shawarma-wrap.jpg",
@@ -79,7 +79,7 @@ const menu = [
 
                 description: {
                     en: "Grilled marinated chicken with melted cheese.",
-                    ar: "دجاج متبل مشوي مع الجبن الذائب."
+                    ar: "دجاج متبل بالبهارات المكسيكة مع الجبن الذائب."
                 },
 
                 image: "images/quesadilla-chicken.jpg",
@@ -111,7 +111,7 @@ const menu = [
 
                 description: {
                     en: "Slow-cooked beef with melted cheese and birria-style sauce.",
-                    ar: "لحم بقري مطهو ببطء مع الجبن الذائب وصلصة بيريا."
+                    ar: "لحم بقري مطهو ببطء مع البهارات العطرية و الجبن الذائب."
                 },
 
                 image: "images/quesadilla-birria.jpg",
@@ -149,12 +149,12 @@ const menu = [
             {
                 name: {
                     en: "Fancy Fries 🥔",
-                    ar: "بطاطا فاخرة 🥔"
+                    ar: "بطاطا فاخرة 🍟"
                 },
 
                 description: {
                     en: "",
-                    ar: ""
+                    ar: "بطاطا تاكوشي المقرمشة مع بهار تاكوشي المميز."
                 },
 
                 image: "images/fries.jpg",
