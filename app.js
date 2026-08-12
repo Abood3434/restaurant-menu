@@ -209,12 +209,228 @@ const menu = [
 
         ]
     },
-
-
-    {
-        category: {
+	{
+		category: {
             en: "Extras",
             ar: "الإضافات"
+        },
+		items: [
+
+            {
+                name: {
+                    en: "Jalapeno Salsa",
+                    ar: "صوص هالابينو"
+                },
+
+                description: {
+                    en: "Spicy Mexican salsa.",
+                    ar: "صلصة مكسيكية حارة جداً."
+                },
+
+                image: "images/soda.png",
+
+                variants: [
+                    {
+                        name: {
+                            en: "",
+                            ar: ""
+                        },
+                        price: 1
+                    }
+                ]
+            },
+			{
+                name: {
+                    en: "Salsa Roja",
+                    ar: "صوص روها"
+                },
+
+                description: {
+                    en: "Tomato Mexican salsa.",
+                    ar: "صلصة البندورة المكسيكية."
+                },
+
+                image: "images/soda.png",
+
+                variants: [
+                    {
+                        name: {
+                            en: "",
+                            ar: ""
+                        },
+                        price: 1
+                    }
+                ]
+            },
+			{
+                name: {
+                    en: "Jalapeno Salsa",
+                    ar: "صوص طحينية"
+                },
+
+                description: {
+                    en: "Spicy Mexican salsa.",
+                    ar: "صلصة مكسيكية حارة جداً."
+                },
+
+                image: "images/soda.png",
+
+                variants: [
+                    {
+                        name: {
+                            en: "",
+                            ar: ""
+                        },
+                        price: 1
+                    }
+                ]
+            },
+			{
+                name: {
+                    en: "Jalapeno Salsa",
+                    ar: "صوص ثومة"
+                },
+
+                description: {
+                    en: "Spicy Mexican salsa.",
+                    ar: "صلصة مكسيكية حارة جداً."
+                },
+
+                image: "images/soda.png",
+
+                variants: [
+                    {
+                        name: {
+                            en: "",
+                            ar: ""
+                        },
+                        price: 1
+                    }
+                ]
+            },
+			{
+                name: {
+                    en: "Jalapeno Salsa",
+                    ar: "سبيشل صوص"
+                },
+
+                description: {
+                    en: "Spicy Mexican salsa.",
+                    ar: "صلصة مكسيكية حارة جداً."
+                },
+
+                image: "images/soda.png",
+
+                variants: [
+                    {
+                        name: {
+                            en: "",
+                            ar: ""
+                        },
+                        price: 1
+                    }
+                ]
+            },
+			{
+			
+                name: {
+                    en: "Jalapeno Salsa",
+                    ar: "سبايسي مايونيز"
+                },
+
+                description: {
+                    en: "Spicy Mexican salsa.",
+                    ar: "صلصة مكسيكية حارة جداً."
+                },
+
+                image: "images/soda.png",
+
+                variants: [
+                    {
+                        name: {
+                            en: "",
+                            ar: ""
+                        },
+                        price: 1
+                    }
+                ]
+            },
+			{
+                name: {
+                    en: "Jalapeno Salsa",
+                    ar: "صوص جبنة سائلة"
+                },
+
+                description: {
+                    en: "Spicy Mexican salsa.",
+                    ar: "صلصة مكسيكية حارة جداً."
+                },
+
+                image: "images/soda.png",
+
+                variants: [
+                    {
+                        name: {
+                            en: "",
+                            ar: ""
+                        },
+                        price: 3
+                    }
+                ]
+            },
+			{
+                name: {
+                    en: "Jalapeno Salsa",
+                    ar: "مخلل خيار"
+                },
+
+                description: {
+                    en: "Spicy Mexican salsa.",
+                    ar: "صلصة مكسيكية حارة جداً."
+                },
+
+                image: "images/soda.png",
+
+                variants: [
+                    {
+                        name: {
+                            en: "",
+                            ar: ""
+                        },
+                        price: 1
+                    }
+                ]
+            },
+			{
+                name: {
+                    en: "Jalapeno Salsa",
+                    ar: "مخلل هالابينو"
+                },
+
+                description: {
+                    en: "Spicy Mexican salsa.",
+                    ar: "صلصة مكسيكية حارة جداً."
+                },
+
+                image: "images/soda.png",
+
+                variants: [
+                    {
+                        name: {
+                            en: "",
+                            ar: ""
+                        },
+                        price: 1
+                    }
+                ]
+            }
+
+        ]
+	},
+    {
+        category: {
+            en: "Drinks",
+            ar: "المشروبات"
         },
 
         items: [
@@ -222,7 +438,7 @@ const menu = [
             {
                 name: {
                     en: "Soft Drink",
-                    ar: "مشروب غازي"
+                    ar: "مشروبات غازية"
                 },
 
                 description: {
@@ -230,15 +446,38 @@ const menu = [
                     ar: "كوكاكولا، سفن أب ومشروبات غازية أخرى."
                 },
 
-                image: "images/drink.jpg",
+                image: "images/soda.png",
+
+                variants: [
+                    {
+                        name: {
+                            en: "",
+                            ar: ""
+                        },
+                        price: 3
+                    }
+                ]
+            },
+			{
+                name: {
+                    en: "Water",
+                    ar: "ماء"
+                },
+
+                description: {
+                    en: "Bottled mineral water. 500ml.",
+                    ar: "مياه معدنية"
+                },
+
+                image: "images/water.png",
 
                 variants: [
                     {
                         name: {
                             en: "Regular",
-                            ar: "عادي"
+                            ar: "500 مل"
                         },
-                        price: 3
+                        price: 2
                     }
                 ]
             }
