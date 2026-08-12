@@ -505,8 +505,7 @@ const englishButton =
 const arabicButton =
     document.getElementById("arabicButton");
 
-const restaurantName =
-    document.getElementById("restaurantName");
+
 
 const restaurantTagline =
     document.getElementById("restaurantTagline");
@@ -681,8 +680,6 @@ englishButton.addEventListener(
         document.documentElement.lang = "en";
         document.documentElement.dir = "ltr";
 
-        restaurantName.textContent =
-            "Tacoshi Restaurant";
 
         restaurantTagline.textContent =
             "Premium Mexican Food 🌮🌯🇲🇽";
@@ -709,8 +706,6 @@ arabicButton.addEventListener(
         document.documentElement.lang = "ar";
         document.documentElement.dir = "rtl";
 
-        restaurantName.textContent =
-            "  Tacoshi – تاكوشي";
 
         restaurantTagline.textContent =
             " المطعم المكسيكي الأول في البلاد 🌮 🌯 🇲🇽";
