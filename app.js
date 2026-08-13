@@ -211,6 +211,61 @@ const menu = [
     },
 	{
 		category: {
+			en: "Taco",
+			ar: "تاكو"
+		},
+		items: [
+			{
+				name: {
+					en: "Mixed Tacos",
+					ar: "تشكيلة تاكو"
+				},
+				
+				description: {
+					en: "Mix and Match Variety of Tacos",
+					ar: "قطع تاكو فردية للتشكيل"
+				},
+				
+				image: "images/tacos.jpg",
+				badge: {
+					en: "Hot",
+					ar: "ساخن"
+				},
+				variants: [
+				{
+					name: {
+						en: "Shawarma Taco",
+						ar: "تاكو شاورما"
+					},
+					price: 8
+				},
+				{
+					name: {
+						en: "Korean Chicken Taco",
+						ar: "تاكو جاج كوري"
+					},
+					price: 8
+				},
+				{
+					name: {
+						en: "Mexican Taco",
+						ar: "تاكو جاج مكسيكي"
+					},
+					price: 8
+				},
+				{
+					name: {
+						en: "Taco Birria",
+						ar: "تاكو بيريا"
+					},
+					price: 10
+				}
+				]
+			}
+		]
+	},
+	{
+		category: {
             en: "Extras",
             ar: "الإضافات"
         },

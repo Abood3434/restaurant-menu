@@ -125,7 +125,7 @@ body {
 	white-space: nowrap;
 
     border: none;
-    scroll-snap-align: start;
+    /* scroll-snap-align: start; */
     padding:
         9px
         16px;
