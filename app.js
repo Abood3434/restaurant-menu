@@ -136,7 +136,62 @@ const menu = [
         ]
     },
 
-
+	{
+		category: {
+			en: "Taco",
+			ar: "تاكو"
+		},
+		items: [
+			{
+				name: {
+					en: "Mixed Tacos",
+					ar: "تشكيلة تاكو"
+				},
+				
+				description: {
+					en: "Mix and Match Variety of Tacos",
+					ar: "قطع تاكو فردية للتشكيل"
+				},
+				
+				image: "images/tacos.jpg",
+				badge: {
+					en: "Hot",
+					ar: "ساخن"
+				},
+				variants: [
+				{
+					name: {
+						en: "Shawarma Taco",
+						ar: "تاكو شاورما"
+					},
+					price: 8
+				},
+				{
+					name: {
+						en: "Korean Chicken Taco",
+						ar: "تاكو جاج كوري"
+					},
+					price: 8
+				},
+				{
+					name: {
+						en: "Mexican Taco",
+						ar: "تاكو جاج مكسيكي"
+					},
+					price: 8
+				},
+				{
+					name: {
+						en: "Taco Birria",
+						ar: "تاكو بيريا"
+					},
+					price: 10
+				}
+				]
+			}
+		]
+	},
+	
     {
         category: {
             en: "Appetizers & Sides",
@@ -154,7 +209,7 @@ const menu = [
 
                 description: {
                     en: "",
-                    ar: "بطاطا تاكوشي المقرمشة مع بهارات تاكوشي المميز."
+                    ar: "بطاطا تاكوشي المقرمشة مع بهارات تاكوشي المميزة."
                 },
 
                 image: "images/fries.jpg",
@@ -211,61 +266,6 @@ const menu = [
     },
 	{
 		category: {
-			en: "Taco",
-			ar: "تاكو"
-		},
-		items: [
-			{
-				name: {
-					en: "Mixed Tacos",
-					ar: "تشكيلة تاكو"
-				},
-				
-				description: {
-					en: "Mix and Match Variety of Tacos",
-					ar: "قطع تاكو فردية للتشكيل"
-				},
-				
-				image: "images/tacos.jpg",
-				badge: {
-					en: "Hot",
-					ar: "ساخن"
-				},
-				variants: [
-				{
-					name: {
-						en: "Shawarma Taco",
-						ar: "تاكو شاورما"
-					},
-					price: 8
-				},
-				{
-					name: {
-						en: "Korean Chicken Taco",
-						ar: "تاكو جاج كوري"
-					},
-					price: 8
-				},
-				{
-					name: {
-						en: "Mexican Taco",
-						ar: "تاكو جاج مكسيكي"
-					},
-					price: 8
-				},
-				{
-					name: {
-						en: "Taco Birria",
-						ar: "تاكو بيريا"
-					},
-					price: 10
-				}
-				]
-			}
-		]
-	},
-	{
-		category: {
             en: "Extras",
             ar: "الإضافات"
         },
@@ -319,13 +319,13 @@ const menu = [
             },
 			{
                 name: {
-                    en: "Jalapeno Salsa",
+                    en: "Tahini Sauce",
                     ar: "صوص طحينية"
                 },
 
                 description: {
                     en: "Spicy Mexican salsa.",
-                    ar: "صلصة مكسيكية حارة جداً."
+                    ar: "طحينية تاكوشي."
                 },
 
                 image: "images/salsa.jpg",
@@ -348,7 +348,7 @@ const menu = [
 
                 description: {
                     en: "Spicy Mexican salsa.",
-                    ar: "صلصة مكسيكية حارة جداً."
+                    ar: "ثومية تاكوشي."
                 },
 
                 image: "images/salsa.jpg",
@@ -371,7 +371,7 @@ const menu = [
 
                 description: {
                     en: "Spicy Mexican salsa.",
-                    ar: "صلصة مكسيكية حارة جداً."
+                    ar: "صوص تاكوشي المميز."
                 },
 
                 image: "images/salsa.jpg",
@@ -395,7 +395,7 @@ const menu = [
 
                 description: {
                     en: "Spicy Mexican salsa.",
-                    ar: "صلصة مكسيكية حارة جداً."
+                    ar: "صوص مايونيز حار."
                 },
 
                 image: "images/salsa.jpg",
