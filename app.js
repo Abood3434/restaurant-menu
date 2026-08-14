@@ -200,8 +200,60 @@ const menu = [
 
         items: [
 
+			{
+                name: {
+					en: "Cheesy Queso 🧀",
+                    ar: "كيسو جبنة 🧀"
+                },
+
+                description: {
+                    en: "",
+                    ar: "قطع من الخبز المقرمش المليئ بالجبنة."
+                },
+
+                image: "images/queso.jpg",
+
+                variants: [{
+                        name: {
+                            en: "Regular",
+                            ar: "عادي"
+                        },
+                        price: 15
+                    }
+                ]
+            },
 
             {
+                name: {
+                    en: "Nachos 🫕",
+                    ar: "ناتشوز 🫕"
+                },
+
+                description: {
+                    en: "",
+                    ar: "رقائق خبز التورتيا المقرمش ببهارات تاكوشي المميزة."
+                },
+
+                image: "images/nachos.jpg",
+
+                variants: [{
+                        name: {
+                            en: "Regular",
+                            ar: "عادي"
+                        },
+                        price: 9
+                    },
+                    {
+                        name: {
+                            en: "With cheese",
+                            ar: "جبنة"
+                        },
+                        price: 13
+                    }
+                ]
+            },
+			
+			{
                 name: {
                     en: "Fancy Fries 🥔",
                     ar: "بطاطا فاخرة 🍟"
@@ -229,37 +281,6 @@ const menu = [
                         price: 12
                     }
                 ]
-            },
-
-
-            {
-                name: {
-                    en: "Nachos 🫕",
-                    ar: "ناتشوز 🫕"
-                },
-
-                description: {
-                    en: "",
-                    ar: ""
-                },
-
-                image: "images/nachos.jpg",
-
-                variants: [{
-                        name: {
-                            en: "Regular",
-                            ar: "عادي"
-                        },
-                        price: 9
-                    },
-                    {
-                        name: {
-                            en: "With cheese",
-                            ar: "جبنة"
-                        },
-                        price: 13
-                    }
-                ]
             }
 
         ]
@@ -282,7 +303,7 @@ const menu = [
                     ar: "صلصة مكسيكية حارة جداً. 🌶️🌶️🌶"
                 },
 
-                image: "images/salsa.jpg",
+                image: "images/jalapeno.jpeg",
 
                 variants: [
                     {
@@ -305,7 +326,7 @@ const menu = [
                     ar: "صلصة البندورة المكسيكية."
                 },
 
-                image: "images/salsa.jpg",
+                image: "images/roja.jpeg",
 
                 variants: [
                     {
@@ -328,7 +349,7 @@ const menu = [
                     ar: "طحينية تاكوشي."
                 },
 
-                image: "images/salsa.jpg",
+                image: "images/tahini.jpeg",
 
                 variants: [
                     {
@@ -351,7 +372,7 @@ const menu = [
                     ar: "ثومية تاكوشي."
                 },
 
-                image: "images/salsa.jpg",
+                image: "images/toom.jpeg",
 
                 variants: [
                     {
@@ -374,7 +395,7 @@ const menu = [
                     ar: "صوص تاكوشي المميز."
                 },
 
-                image: "images/salsa.jpg",
+                image: "images/special.jpeg",
 
                 variants: [
                     {
@@ -398,7 +419,7 @@ const menu = [
                     ar: "صوص مايونيز حار."
                 },
 
-                image: "images/salsa.jpg",
+                image: "images/spicy.jpeg",
 
                 variants: [
                     {
