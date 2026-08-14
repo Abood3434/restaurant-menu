@@ -49,7 +49,7 @@ const menu = [
 
                 description: {
                     en: "Seasoned chicken shawarma with fresh vegetables and sauce.",
-                    ar: "شاورما دجاج بتتبيلة خاصة. <br> مع جبنة <br> طحينية وثومة"
+                    ar: "شاورما دجاج بتتبيلة خاصة. <br>مع جبنة 🧀<br> طحينية وثومة"
                 },
 
                 image: "images/shawarma-wrap.jpg",
@@ -79,7 +79,7 @@ const menu = [
 
                 description: {
                     en: "Grilled marinated chicken with melted cheese.",
-                    ar: "دجاج متبل بالبهارات المكسيكة مع الجبن الذائب."
+                    ar: "دجاج متبل بالبهارات المكسيكة مع الجبن الذائب. 🧀"
                 },
 
                 image: "images/quesadilla-chicken.jpg",
@@ -111,7 +111,7 @@ const menu = [
 
                 description: {
                     en: "Slow-cooked beef with melted cheese and birria-style sauce.",
-                    ar: "لحم بقري مطهو ببطء مع البهارات العطرية و الجبن الذائب."
+                    ar: "لحم بقري مطهو ببطء مع البهارات العطرية و الجبن الذائب. 🧀"
                 },
 
                 image: "images/quesadilla-birria.jpg",
