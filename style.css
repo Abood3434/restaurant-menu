@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'TacoshiFont';
-    src: url('fonts/FFHekaya-Light.otf') format('opentype');
+    src: url('fonts/my-font-file.woff') format('woff'),
+		  url('fonts/my-font-file.woff2') format('woff2'),
+          url('fonts/FFHekaya-Light.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -46,7 +48,7 @@ body {
 
 .logo {
     width: 240px;
-    height: 100px;
+    height: 153px;
 
     margin: 20px auto 15px;
 
@@ -145,10 +147,12 @@ body {
     background: #eee9d6;
 
     color: #333;
+	
+    font-family: 'TacoshiFont', sans-serif;
+	
+    font-size: 17px;
 
-    font-size: 13px;
-
-    font-weight: 600;
+    font-weight: 800;
 
     cursor: pointer;
 
@@ -157,12 +161,29 @@ body {
         color 0.15s ease;
 }
 
+.category-button.active {
+    background: off-white;
+    color: grey;
+    border-color: #111;
+}
+
+
 .category-button:hover {
-    background: #ddd;
+    background: crimson;
+    transform: scale(1.07);
+	color: #FFFDD0;
+
+}
+
+.category-button.active:hover {
+    background: #820b23;
+    color: crimson;
+	
+    border-color: #111;
 }
 
 .category-button:active {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 /* =========================

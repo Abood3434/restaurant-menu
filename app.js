@@ -303,7 +303,7 @@ const menu = [
                     ar: "صلصة مكسيكية حارة جداً. 🌶️🌶️🌶"
                 },
 
-                image: "images/jalapeno.jpeg",
+                image: "images/jalapeno.jpg",
 
                 variants: [
                     {
@@ -326,7 +326,7 @@ const menu = [
                     ar: "صلصة البندورة المكسيكية."
                 },
 
-                image: "images/roja.jpeg",
+                image: "images/roja.jpg",
 
                 variants: [
                     {
@@ -349,7 +349,7 @@ const menu = [
                     ar: "طحينية تاكوشي."
                 },
 
-                image: "images/tahini.jpeg",
+                image: "images/tahini.jpg",
 
                 variants: [
                     {
@@ -372,7 +372,7 @@ const menu = [
                     ar: "ثومية تاكوشي."
                 },
 
-                image: "images/toom.jpeg",
+                image: "images/toom.jpg",
 
                 variants: [
                     {
@@ -395,7 +395,7 @@ const menu = [
                     ar: "صوص تاكوشي المميز."
                 },
 
-                image: "images/special.jpeg",
+                image: "images/special.jpg",
 
                 variants: [
                     {
@@ -419,7 +419,7 @@ const menu = [
                     ar: "صوص مايونيز حار."
                 },
 
-                image: "images/spicy.jpeg",
+                image: "images/spicy.jpg",
 
                 variants: [
                     {
@@ -609,22 +609,31 @@ function renderMenu() {
         const button =
             document.createElement("button");
 
-        button.className =
-            "category-button";
+        button.className = "category-button";
 
+		if (index === 0) {
+			button.classList.add("active");
+			}
         button.textContent =
             category.category[currentLanguage];
 
+		button.addEventListener("click", () => {
 
-        button.addEventListener("click", () => {
+			document
+				.getElementById(categoryId)
+				.scrollIntoView({
+					behavior: "smooth"
+				});
 
-            document
-                .getElementById(categoryId)
-                .scrollIntoView({
-                    behavior: "smooth"
-                });
+			document
+				.querySelectorAll(".category-button")
+				.forEach(btn => {
+					btn.classList.remove("active");
+				});
 
-        });
+			button.classList.add("active");
+
+		});
 
 
         categoryNav.appendChild(button);
@@ -859,3 +868,49 @@ document.addEventListener(
  */
 
 renderMenu();
+
+
+const sections =
+    document.querySelectorAll(".menu-section");
+
+const buttons =
+    document.querySelectorAll(".category-button");
+
+
+const observer =
+    new IntersectionObserver(
+        (entries) => {
+
+            entries.forEach(entry => {
+
+                if (entry.isIntersecting) {
+
+                    const index =
+                        [...sections]
+                        .indexOf(entry.target);
+
+                    buttons.forEach(button => {
+                        button.classList.remove("active");
+                    });
+
+                    if (buttons[index]) {
+                        buttons[index]
+                            .classList.add("active");
+                    }
+                }
+
+            });
+
+        },
+        {
+            rootMargin:
+                "-100px 0px -60% 0px",
+
+            threshold: 0
+        }
+    );
+
+
+sections.forEach(section => {
+    observer.observe(section);
+});
