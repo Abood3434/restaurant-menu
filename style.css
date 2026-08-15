@@ -39,7 +39,10 @@ body {
     margin: 0;
 
 
-    background: #FFFDD0;
+    /* background: #FFFDD0; 
+	OVERRIDDEN INLINE
+	*/
+	
     color: #171717;
 	font-family: 'TacoshiFont', sans-serif;
 
@@ -51,7 +54,7 @@ body {
 ========================= */
 
 .hero {
-    background: #FFFDD0;
+    background: #eee9d6;
     color: white;
     text-align: center;
 
