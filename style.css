@@ -54,7 +54,7 @@ body {
 ========================= */
 
 .hero {
-    background: #eee9d6;
+    background: #eed9c4;
     color: white;
     text-align: center;
 
@@ -128,7 +128,7 @@ body {
 
     background: #ba5c38;
 
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid e8e8e875;
 	border-radius: 10px;
 
     scrollbar-width: none;
@@ -142,7 +142,7 @@ body {
 
     background: ba5c38;
 
-    border-bottom: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e875;
 }
 
 
