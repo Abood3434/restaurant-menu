@@ -187,12 +187,14 @@ body {
 }
 
 
-.category-button:hover {
+@media (hover: hover) {
+	.category-button:hover {
     background: crimson;
     transform: scale(1.07);
 	color: #FFFDD0;
 	/* font-size: 18px; */
 
+	}
 }
 
 .category-button.active:hover {
