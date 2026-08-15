@@ -128,7 +128,7 @@ body {
 
     background: #ba5c38;
 
-    border-bottom: 1px solid e8e8e875;
+    border-bottom: 1px solid ddd;
 	border-radius: 10px;
 
     scrollbar-width: none;
@@ -140,11 +140,19 @@ body {
     top: 0;
     z-index: 100;
 
-    background: ba5c38;
+    /* background: ba5c38; */
 
-    border-bottom: 1px solid #e8e8e875;
+    /* border-bottom: 1px solid #e8e8e875; */
 }
 
+
+.category-button:hover + .category-button {
+    transform: translateX(-4px);
+}
+
+.category-button:has(+ .category-button:hover) {
+    transform: translateX(+4px);
+}
 
 .category-nav::-webkit-scrollbar {
     display: none;
