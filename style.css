@@ -20,8 +20,8 @@
 
 @font-face {
     font-family: 'TacoshiFont';
-    src: url('fonts/my-font-file.woff') format('woff'),
-		  url('fonts/my-font-file.woff2') format('woff2'),
+    src: url('fonts/FFHekaya-Light.woff') format('woff'),
+		  url('fonts/FFHekaya-Light.woff2') format('woff2'),
           url('fonts/FFHekaya-Light.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
