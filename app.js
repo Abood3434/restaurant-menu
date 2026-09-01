@@ -20,7 +20,7 @@ const menu = [
                 },
 
                 image: "images/korean-chicken.jpg",
-				badge: {ar:"جديد🔥", en:"New 🔥"},
+				badge: {ar:"الاكثر مبيعاً🔥", en:"New 🔥"},
 
                 variants: [
                     {
@@ -135,7 +135,61 @@ const menu = [
 
         ]
     },
-
+{
+		category: {
+			en: "Rice Burritos",
+			ar: "بوريتو كلاسيكي"
+		},
+		items: [
+			{
+				name: {
+					en: "Rice Burritos",
+					ar: "بوريتو كلاسيكي مع رز 🌯🌯"
+				},
+				
+				description: {
+					en: "Mix and Match Variety of Tacos",
+					ar: "	البوريتو المكسيكي مع الأرز بالحشوات المختلفة."
+				},
+				
+				image: "images/classic.jpg",
+				badge: {
+					en: "New",
+					ar: "جديد 🌵"
+				},
+				variants: [
+				{
+					name: {
+						en: "Meixcan Chicken",
+						ar: "جاج مكسيكي"
+					},
+					price: 24
+				},
+				{
+					name: {
+						en: "Meixcan Chicken",
+						ar: "شاورما"
+					},
+					price: 22
+				},
+				{
+					name: {
+						en: "Meixcan Chicken",
+						ar: "جاج كوري"
+					},
+					price: 26
+				},
+				{
+					name: {
+						en: "Meixcan Chicken",
+						ar: "بيريا لحمة"
+					},
+					price: 28
+				}
+				]
+			}
+		]
+	},
 	{
 		category: {
 			en: "Taco",
@@ -150,7 +204,7 @@ const menu = [
 				
 				description: {
 					en: "Mix and Match Variety of Tacos",
-					ar: "قطع تاكو فردية للتشكيل"
+					ar: "قطع تاكو فردية للتشكيل 🌮🌮🌮🌮"
 				},
 				
 				image: "images/tacos.jpg",
@@ -465,7 +519,7 @@ const menu = [
                     ar: "صلصة مكسيكية حارة جداً."
                 },
 
-                image: "images/soda.png",
+                image: "images/sodsssa.png",
 
                 variants: [
                     {
@@ -488,7 +542,7 @@ const menu = [
                     ar: "صلصة مكسيكية حارة جداً."
                 },
 
-                image: "images/soda.png",
+                image: "images/sodsssa.png",
 
                 variants: [
                     {
@@ -528,7 +582,37 @@ const menu = [
                     {
                         name: {
                             en: "",
-                            ar: ""
+                            ar: "330 مل"
+                        },
+                        price: 3
+                    }
+                ]
+            },
+			{
+                name: {
+                    en: "Juice",
+                    ar: "عصير"
+                },
+
+                description: {
+                    en: "Refreshing Cappy drink.",
+                    ar: "عصير كابي المنعش."
+                },
+
+                image: "images/cappy.jpg",
+
+                variants: [
+                    {
+                        name: {
+                            en: "",
+                            ar: "مانجا"
+                        },
+                        price: 3
+                    },
+					{
+                        name: {
+                            en: "",
+                            ar: "عنب"
                         },
                         price: 3
                     }
