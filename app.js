@@ -113,6 +113,7 @@ const menu = [
                     en: "Slow-cooked beef with melted cheese and birria-style sauce.",
                     ar: "لحم بقري مطهو ببطء مع البهارات العطرية و الجبن الذائب. 🧀"
                 },
+				badge: {ar:"الاكثر مبيعاً🔥", en:"New 🔥"},
 
                 image: "images/quesadilla-birria.jpg",
 
