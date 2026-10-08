@@ -1,5 +1,39 @@
 const menu = [
-
+{
+	category: {
+				en: "Exclusive Deals",
+				ar: "عروض حصرية ❇️"
+			},
+			items: [
+				{
+					name: {
+						en: "Mini BBQ Chicken Fajita Meal",
+						ar: "ميني باربيو فاهكيتا الدجاج"
+					},
+					
+					description: {
+						en: "ss",
+						ar: "وجبة دجاج الباربيكو مع الخضار مشوية. تشمل بطاطا + كولا.<br><strong>متوفر حتى تاريخ 24/10!</strong>"
+					},
+					
+					image: "images/bbq.jpg",
+					badge: {
+						en: "",
+						ar: "عرض ✨"
+					},
+					variants: [
+					{
+						name: {
+							en: "Meixcan Chicken",
+							ar: "وجبة + كولا"
+						},
+						price: 21
+					}
+					]
+				},
+				
+			]
+		},
     {
         category: {
             en: "Main Meals",
@@ -155,8 +189,8 @@ const menu = [
 				
 				image: "images/classic.jpg",
 				badge: {
-					en: "New",
-					ar: "جديد 🌵"
+					en: "",
+					ar: "🌵"
 				},
 				variants: [
 				{
