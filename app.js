@@ -608,7 +608,7 @@ const menu = [
 
                 description: {
                     en: "Coca-Cola, 7UP and other available drinks.",
-                    ar: "كوكاكولا، سفن أب ومشروبات غازية أخرى."
+                    ar: "كوكاكولا، سبرايت ومشروبات غازية أخرى."
                 },
 
                 image: "images/soda.png",
@@ -617,7 +617,14 @@ const menu = [
                     {
                         name: {
                             en: "",
-                            ar: "330 مل"
+                            ar: "علبة 330مل"
+                        },
+                        price: 3
+                    },
+					{
+                        name: {
+                            en: "",
+                            ar: "زجاج 300مل"
                         },
                         price: 3
                     }
@@ -640,7 +647,7 @@ const menu = [
                     {
                         name: {
                             en: "",
-                            ar: "مانجا"
+                            ar: "برتقال"
                         },
                         price: 3
                     },
