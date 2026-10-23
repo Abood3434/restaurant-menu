@@ -1,5 +1,5 @@
 const menu = [
-{
+/* {
 	category: {
 				en: "Exclusive Deals",
 				ar: "عروض حصرية ❇️"
@@ -33,7 +33,7 @@ const menu = [
 				},
 				
 			]
-		},
+		}, */
     {
         category: {
             en: "Main Meals",
