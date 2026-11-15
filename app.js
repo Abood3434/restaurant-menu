@@ -689,6 +689,11 @@ const menu = [
 
 ];
 
+const message = "السلام عليكم";
+
+const whatsappLink = `https://wa.me/970592434109?text=${encodeURIComponent(message)}`;
+
+document.getElementById("whatsappLink").href = whatsappLink;
 
 let currentLanguage = "ar";
 document.documentElement.dir = "rtl";
