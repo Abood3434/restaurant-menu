@@ -154,8 +154,36 @@ body {
 align-items: stretch;	
     fill: #5b1681;
 }
+.social-links a[aria-label="WhatsApp"]:hover {
+  background-color: #25D366;
+  color: white;
+  border-color: #25D366;
+}
+.social-links a[aria-label="WhatsApp"] {
+  border-radius: 50%;
+  overflow: hidden;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
 
+.social-links a[aria-label="WhatsApp"] {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+  line-height: 1;
+}
 
+.social-links a[aria-label="WhatsApp"] svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin: 0;
+}
 .category-button:hover + .category-button {
     transform: translateX(-4px);
 }
